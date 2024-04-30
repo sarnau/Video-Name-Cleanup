@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Video Name Cleanup' target in the 'Video Name Cleanup' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

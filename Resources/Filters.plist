@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>(?P&lt;name&gt;.*) - (?P&lt;title&gt;[^\\/]*) - [sS](?P&lt;season&gt;\d+)[eE](?P&lt;episode&gt;\d+)</string>
+	<string>(?P&lt;name&gt;.*) - [sS](?P&lt;season&gt;\d+)[eE](?P&lt;episode&gt;\d+) - (?P&lt;title&gt;[^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]*[sS](?P&lt;season&gt;\d+)[eE](?P&lt;episode&gt;\d+)[ .-]*(?P&lt;title&gt;[^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]*[sS](?P&lt;season&gt;\d+)\.[eE](?P&lt;episode&gt;\d+)[ .-]*(?P&lt;title&gt;[^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]Series (?P&lt;season&gt;\d+), Episode (?P&lt;episode&gt;\d+)([^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]Season (?P&lt;season&gt;\d+), Episode (?P&lt;episode&gt;\d+)([^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]+\[(?P&lt;season&gt;\d+)[xX\.](?P&lt;episode&gt;\d+)\][ .-]*</string>
+	<string>(?P&lt;name&gt;.*)[ .-]+(?P&lt;season&gt;\d+)[xX\.](?P&lt;episode&gt;\d+)[ .-]*</string>
+	<string>(?P&lt;name&gt;.*)[ .-]+(?P&lt;season&gt;\d\d)(?P&lt;episode&gt;\d\d)[ .-]*(?P&lt;title&gt;[^\\/]*)</string>
+	<string>(?P&lt;name&gt;.*)[ .-]+(?P&lt;season&gt;\d)(?P&lt;episode&gt;\d+)[ .-]*(?P&lt;title&gt;[^\\/]*)</string>
+</array>
+</plist>
